@@ -1,0 +1,176 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+$menu_items = sma_adminbar_array();
+$theme = wp_get_theme(); // gets the current theme
+?> 
+<section id="sma_content1" class="sma_tab_section">
+    <div class="accordion_container">
+        <form method="post" class="sma_setting" id="sma_general_tab_form" enctype="multipart/form-data">
+			<div class="accordion_set">
+                <div class="accordion heading add-sma-option">
+                    <label>
+                        <?php esc_html_e( 'General Settings', 'woocommerce-shop-manager-admin-bar' ); ?> 
+                        <span class="ast-accordion-btn">
+                            <div class="spinner workflow_spinner" style="float:left"></div>
+                            <button name="save" class="sma-btn button-primary general-save-button" type="submit" value="Save changes" >
+                                <?php esc_html_e( 'Save Changes', 'woocommerce-shop-manager-admin-bar' ); ?>
+                            </button>
+                                <?php wp_nonce_field( 'general_form_action', 'general_form_nonce_field' ); ?>
+                                <input type="hidden" name="action" value="sma_general_settings_form_update">	
+                        </span>	
+                        <span class="dashicons dashicons-arrow-right-alt2"></span>
+                    </label>
+                </div>
+                <div class="panel options add-tracking-option">
+                    <div class="table_border">
+                        <table class="form-table">
+                            <?php echo $this->get_html( $this->sma_general_settings_tab() ); ?>
+                        </table>
+                        <div style="padding-bottom:12px">
+                        <?php esc_html_e( 'Admin Footer Text' , 'woocommerce-shop-manager-admin-bar' ); ?>
+                        <input style="vertical-align:middle;width:270px;margin-right:10px" class="input-text regular-input ltr" type="text" name="settings_menu[dashboard_footer_text]" id="settings_menu[dashboard_footer_text]" value='<?php echo get_sma_general_settings( 'dashboard_footer_text' ,'Shop Manager Admin by <a href="https://www.zorem.com/?utm_source=wpadmin&utm_medium=SMA&utm_campaign=footer_txt">zorem</a>') ; ?>' placeholder="<?php esc_html_e('Shop Manager Admin by zorem', 'woocommerce-shop-manager-admin-bar'); ?>">
+                        </div>
+                    </div>
+                </div>
+			</div>
+        </form>
+        <form method="post" action="options.php" id="sma_dashboard_tab_form">
+            <div class="accordion_set">
+                <div class="accordion heading add-sma-option">
+                    <label>
+						<?php esc_html_e( 'WordPress Dashboard Widgets', 'woocommerce-shop-manager-admin-bar' ); ?> 
+                        <span class="ast-accordion-btn"> 
+                            <div class="spinner workflow_spinner" style="float:left"></div>   
+                            <button name="save" class="sma-btn button-primary general-save-button" type="submit" value="Save changes">
+                                <?php esc_html_e( 'Save Changes', 'woocommerce-shop-manager-admin-bar' ); ?>
+                            </button>
+                            <?php wp_nonce_field( 'dashboard_form_action', 'dashboard_form_nonce_field' ); ?>
+                            <input type="hidden" name="action" value="sma_update_dashboard_widget">
+                        </span>	
+                        <span class="dashicons dashicons-arrow-right-alt2"></span>
+                    </label>
+                </div>
+                <div class="panel options add-tracking-option">
+                    <table class="form-table mw1000">		
+                        <thead >
+                            <tr >
+                                <th class="margin-left"><?php esc_html_e( 'Widget', 'woocommerce-shop-manager-admin-bar' ); ?></th>
+                                <th class="sma_wp_dash_widget_heading"><?php esc_html_e( 'Administrator', 'woocommerce-shop-manager-admin-bar' ); ?></th>
+                                <th class="sma_wp_dash_widget_heading"><?php esc_html_e( 'Shop Manager', 'woocommerce-shop-manager-admin-bar' ); ?></th>
+                            </tr>
+                        </thead>					
+                        <?php echo $this->get_html2( $this->get_dashboard_tab_data() ); ?>								
+                    </table>
+                    <?php wp_nonce_field( 'dashboard_form_action', 'dashboard_form_nonce_field' ); ?>
+                    <input type="hidden" name="action" value="sma_update_dashboard_widget">
+                </div>
+            </div>
+        </form>
+        <form method="post"  action="options.php" id="sma_admin_menu_tab_form">
+            <div class="accordion_set">
+                <div class="accordion heading add-sma-option">
+                    <label>
+                           <?php esc_html_e( 'Admin Bar Menu', 'woocommerce-shop-manager-admin-bar' ); ?>
+                        <span class="ast-accordion-btn">
+                            <div class="spinner workflow_spinner" style="float:left"></div>
+                            <button name="save" class="sma-btn button-primary general-save-button" type="submit" value="Save changes">
+                                <?php esc_html_e( 'Save Changes', 'woocommerce-shop-manager-admin-bar' ); ?>
+                            </button>                                                <?php wp_nonce_field( 'general_form_action', 'general_form_nonce_field' ); ?>
+                            <input type="hidden" name="action" value="sma_general_settings_form_update">	
+                        </span>	
+                        <span class="dashicons dashicons-arrow-right-alt2"></span>
+                    </label>                           
+                </div>
+                <div class="panel options add-tracking-option">
+                    <div style="margin-bottom:15px;margin-left:-34px; display:none">
+                        <?php esc_html_e( 'Admin Bar Menu Items Visibility', 'woocommerce-shop-manager-admin-bar' ); ?> 
+
+                        <?php sma_toggle( 'admin_menu[admin_bar_backend]', 'admin_bar_backend', get_sma_adminbar( 'admin_bar_backend' ), '' );?>	
+                        <label style="font-size: 14px;">
+                            <?php echo "Display Shop Manager quick links menu on WordPress Admin bar"; ?>
+                        </label>
+                    </div>
+                    <table class="form-table" id="woocommerce-menu">
+                        <thead>
+                            <tr>
+                                <th class="margin-left"><?php esc_html_e( 'Menu', 'woocommerce-shop-manager-admin-bar' );?></th>
+                                <th class="sma_wp_dash_widget_heading"><?php esc_html_e( 'Administrator', 'woocommerce-shop-manager-admin-bar' ); ?></th>
+                                <th class="sma_wp_dash_widget_heading"><?php esc_html_e( 'Shop Manager', 'woocommerce-shop-manager-admin-bar' ); ?></th>
+                               
+                            </tr>
+                        </thead>
+                        <?php foreach($menu_items as $key=>$value ) { ?>
+                            <?php if ( isset($value['id']) && $value['id'] == 'woocommerce' ) { ?>						
+                                <tr>
+                                    <td><?php echo $value['title']  ?> </td>	
+                                    
+                                    <td class="toggle_td">
+                                        <?php sma_toggle( "admin_menu[{$key}]", $key, get_sma_adminbar( $key ), 'for_admin' );?>
+                                    </td>
+                                    <td class="toggle_td">
+                                        <?php sma_toggle( "admin_menu[{$key}_sm]", $key.'_sm', get_sma_adminbar( $key.'_sm' ), 'for_sma' );?>
+                                    </td>
+                                </tr>
+                                
+                                <?php foreach ($menu_items as $child_key=>$child_value ) {
+                                    if ( $child_value['parent'] == 'ddw-woocommerce-'.$key ) {
+										//echo '<pre>';print_r($child_value);echo '</pre>';
+                                        if ( in_array ( $child_value['parent'], array( 'ddw-woocommerce-orders', 'ddw-woocommerce-marketing','ddw-woocommerce-woo_analytics', 'ddw-woocommerce-subscription', 'ddw-woocommerce-reports', 'ddw-woocommerce-fulfillment', 'ddw-woocommerce-products', 'ddw-woocommerce-shop-settings', 'ddw-woocommerce-shop-settings', 'ddw-woocommerce-users', 'ddw-woocommerce-posts', 'ddw-woocommerce-pages' ) ) || isset($child_value['field']) == 'no-html' ) {
+											continue;
+										}
+										?>
+                                        <tr class='sub_option'>
+                                        <td>
+                                            <div class="hide_widgets wc-status-child" >
+										        <span class="dashicons dashicons-arrow-right-alt2" id="set_icon"></span>
+                                                <span class="set_title" style="padding:2px">
+                                                <?php esc_html_e( $child_value['title'], 'woocommerce-shop-manager-admin-bar' ); ?>
+                                            </div>
+                                        </td>      
+                                            <td class='toggle_td <?php echo "{$key}_sub_option"; ?>''>
+                                                <?php sma_toggle( "admin_menu[{$child_key}]", $child_key, get_sma_adminbar( $child_key ), 
+                                                'for_sub_admin' );?>		
+                                            </td>							
+                                            <td class='toggle_td <?php echo "{$key}_sub_option"; ?>''>	
+                                                <?php sma_toggle( "admin_menu[{$child_key}_sm]", $child_key.'_sm', get_sma_adminbar( $child_key.'_sm' ), 'for_sub_sma' );?>
+                                            </td>
+                                        </tr>  
+                                    <?php } ?>
+                                <?php } ?> 						
+                            <?php } ?>
+                        <?php } ?>
+                    </table>					
+                    <?php wp_nonce_field( 'admin_menu_form_action', 'admin_menu_form_nonce_field' ); ?>
+                    <input type="hidden" name="action" value="sma_update_adminbar_menu">
+                </div>
+            </div>
+        </form>
+        <form action="#" method="POST" id="sma_user_search_form" class="clear">
+            <div class="accordion_set">
+                <div class="accordion heading add-sma-option">
+                    <label>
+                        <?php esc_html_e( 'Fast Customer Switching', 'woocommerce-shop-manager-admin-bar' ); ?> 
+                        <span class="ast-accordion-btn">
+                            <div class="spinner workflow_spinner" style="float:left"></div>
+                            <button name="save" class="sma-btn button-primary general-save-button" type="submit" value="Save changes" >
+                                <?php esc_html_e( 'Save Changes', 'woocommerce-shop-manager-admin-bar' ); ?>
+                            </button>
+                                <?php wp_nonce_field( 'switch_user_form_action', 'switch_user_form_nonce_field' ); ?>
+                                <input type="hidden" name="action" value="sma_switch_form_update">	
+                        </span>	
+                        <span class="dashicons dashicons-arrow-right-alt2"></span>
+                    </label>
+                </div>
+                <div class="panel options add-tracking-option">
+                    <div class="table_border">
+                        <table class="form-table">
+                            <?php echo $this->get_html3( $this->sma_switch_user_tab() ); ?> 
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>  
+</section>

@@ -1,0 +1,511 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Shop Manager Admin Bar\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-01 06:33+0000\n"
+"PO-Revision-Date: 2022-01-19 05:06+0000\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.7; wp-5.8.3"
+
+#: includes/class-sma-admin.php:377
+msgid "Activity"
+msgstr "Деятельность"
+
+#: includes/class-sma-admin.php:1193
+msgid "Admin Bar Menu"
+msgstr "Меню панели администратора"
+
+#: includes/class-sma-admin.php:1198
+msgid "Admin Footer Text"
+msgstr "Текст нижнего колонтитула администратора"
+
+#: includes/class-sma-admin.php:1202
+msgid "Administrator"
+msgstr "Администратор"
+
+#: includes/class-sma-menubar-array.php:104
+msgid "All Orders"
+msgstr "Все заказы"
+
+#: includes/class-sma-admin.php:243
+msgid "Allow Switch to Customer for Shop Manager role"
+msgstr "Разрешить переключение на клиента для роли менеджера магазина"
+
+#: includes/class-sma-admin.php:373
+msgid "At a Glance"
+msgstr "С одного взгляда"
+
+#: includes/class-sma-menubar-array.php:666
+#: includes/class-sma-menubar-array.php:1394
+msgid "AutomateWoo"
+msgstr "AutomateWoo"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:247
+#: includes/customizer/wc-sma-login-page-customizer.php:303
+#| msgid "Background Color"
+msgid "Background color"
+msgstr "Фоновый цвет"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:322
+msgid "Border color"
+msgstr "Цвет границы"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:332
+msgid "Border radius"
+msgstr "Радиус границы"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:299
+msgid "Boxed"
+msgstr "В штучной упаковке"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:345
+#| msgid "Button Color"
+msgid "Button color"
+msgstr "Цвет кнопки"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:354
+msgid "Button font color"
+msgstr "Цвет шрифта кнопки"
+
+#: includes/class-sma-menubar-array.php:1435
+#: includes/class-sma-menubar-array.php:1438
+msgid "Carts"
+msgstr "Тележки"
+
+#: includes/class-sma-menubar-array.php:1101
+#: includes/class-sma-menubar-array.php:1104
+msgid "Contact Forms 7"
+msgstr "Контактные формы 7"
+
+#: includes/class-sma-menubar-array.php:1078
+#: includes/class-sma-menubar-array.php:1081
+msgid "Custom Order Numbers"
+msgstr "Номера для индивидуальных заказов"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:274
+msgid "Custom text after header:"
+msgstr "Пользовательский текст после заголовка:"
+
+#: includes/class-sma-menubar-array.php:1551
+#: includes/class-sma-menubar-array.php:1554
+msgid "Customer Verification"
+msgstr "Подтверждение клиента"
+
+#: includes/class-sma-admin.php:154
+msgid "Customize"
+msgstr "Настроить"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:109
+msgid "Customizing > WordPress login"
+msgstr "Настройка > Вход в WordPress"
+
+#: includes/class-sma-menubar-array.php:435
+#: includes/class-sma-menubar-array.php:438
+#: includes/class-sma-menubar-array.php:1403
+#: includes/class-sma-menubar-array.php:1406
+msgid "Dashboard"
+msgstr "Щиток приборов"
+
+#: includes/class-sma-admin.php:389
+msgid "Display on-hold"
+msgstr "Отображение в режиме ожидания"
+
+#: includes/class-sma-admin.php:290
+msgid "Display order count column in user Admin"
+msgstr "Отображение столбца количества заказов в администраторе пользователя"
+
+#: includes/class-sma-admin.php:385
+msgid "Display processing"
+msgstr "Обработка дисплея"
+
+#: includes/class-sma-admin.php:283
+msgid "Display signup date column in user Admin"
+msgstr "Отображение столбца даты регистрации в администраторе пользователя"
+
+#: includes/class-sma-admin.php:393
+msgid "Display Stock info"
+msgstr "Показать информацию о запасах"
+
+#: includes/class-sma-admin.php:278
+msgid "Display total spend column in user Admin"
+msgstr "Отображение столбца общих расходов в администраторе пользователя"
+
+#: includes/class-sma-menubar-array.php:1052
+#: includes/class-sma-menubar-array.php:1055
+msgid "Drag and Drop Email Builder"
+msgstr "Конструктор электронной почты с перетаскиванием"
+
+#: includes/class-sma-menubar-array.php:1276
+#: includes/class-sma-menubar-array.php:1279
+msgid "Elementor"
+msgstr "Элементор"
+
+#: includes/class-sma-menubar-array.php:1041
+#: includes/class-sma-menubar-array.php:1044
+#: includes/class-sma-menubar-array.php:1063
+#: includes/class-sma-menubar-array.php:1070
+msgid "Email Customizer"
+msgstr "Настройщик электронной почты"
+
+#: includes/class-sma-admin.php:297
+msgid "Enable horizontal scroll in WooCommerce Orders admin"
+msgstr "Включить горизонтальную прокрутку в админке WooCommerce Orders"
+
+#: includes/class-sma-admin.php:217
+msgid "Enable Switch to Customer option in admin Bar"
+msgstr "Включите опцию \"Переключиться на клиента\" на панели администратора."
+
+#: includes/class-sma-admin.php:301
+msgid "Enable this option to add a Horizontal scroll in orders admin."
+msgstr ""
+"Включите эту опцию, чтобы добавить горизонтальную прокрутку в администратор "
+"заказов."
+
+#: includes/class-sma-admin.php:247
+msgid "Enable this option To Allow Switch to Customer for Shop Manager role."
+msgstr ""
+"Включите эту опцию, чтобы разрешить переключение на клиента для роли "
+"менеджера магазина."
+
+#: includes/class-sma-admin.php:294
+msgid "Enable this option to display order count in users ."
+msgstr ""
+"Включите этот параметр, чтобы отображать количество заказов в пользователях."
+
+#: includes/class-sma-admin.php:287
+msgid "Enable this option to display singup date column in users ."
+msgstr ""
+"Включите эту опцию, чтобы отображать столбец даты регистрации в "
+"пользователях."
+
+#: includes/class-sma-admin.php:219
+msgid "Enable this option to display Switch User."
+msgstr "Включите этот параметр, чтобы отобразить «Сменить пользователя»."
+
+#: includes/class-sma-admin.php:280
+#| msgid ""
+#| "Enable this option to add a \"Total Spend\" column in users admin.\n"
+msgid "Enable this option to display total spend column in user Admin ."
+msgstr ""
+"Включите этот параметр, чтобы отобразить столбец общих расходов в "
+"администраторе пользователя."
+
+#: includes/class-sma-admin.php:308
+msgid ""
+"Enable this option to remove WordPress logo from admin menu & admin bar."
+msgstr ""
+"Включите эту опцию, чтобы удалить логотип WordPress из меню администратора и "
+"панели администратора."
+
+#: includes/class-sma-admin.php:226
+msgid "Enable this option To Show customer name."
+msgstr "Включите эту опцию, чтобы показать имя клиента."
+
+#: includes/class-sma-admin.php:240
+msgid "Enable this option To Show customer role."
+msgstr "Включите эту опцию, чтобы показать роль клиента."
+
+#: includes/class-sma-admin.php:233
+msgid "Enable this option To Show username."
+msgstr "Включите эту опцию, чтобы показать имя пользователя."
+
+#: includes/customizer/wc-sma-login-page-customizer.php:363
+msgid "Expand button "
+msgstr "Кнопка \"Развернуть\""
+
+#: includes/class-sma-admin.php:1195
+msgid "Fast Customer Switching"
+msgstr "Быстрое переключение клиентов"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:256
+#: includes/customizer/wc-sma-login-page-customizer.php:313
+#| msgid "Text Color"
+msgid "Font color"
+msgstr "Цвет текста"
+
+#: includes/class-sma-menubar-array.php:330
+#: includes/class-sma-menubar-array.php:333
+msgid "Fulfillment"
+msgstr "Исполнение"
+
+#: includes/class-sma-admin.php:1192
+msgid "General Settings"
+msgstr "общие настройки"
+
+#: includes/class-sma-admin.php:159 includes/class-sma-admin.php:162
+#: includes/class-sma-admin.php:1197
+msgid "Go Pro"
+msgstr "Go Pro"
+
+#: includes/class-sma-menubar-array.php:1443
+#: includes/class-sma-menubar-array.php:1446
+msgid "Guests"
+msgstr "Гости"
+
+#. Author URI of the plugin
+msgid "http://www.zorem.com/"
+msgstr "http://www.zorem.com/"
+
+#. URI of the plugin
+msgid "https://www.zorem.com/shop"
+msgstr "https://www.zorem.com/shop"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:265
+#| msgid "Link Color"
+msgid "Links color"
+msgstr "Цвет ссылки"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:284
+msgid "Login box"
+msgstr "Окно входа"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:291
+msgid "Login box type"
+msgstr "Тип окна входа"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:220
+msgid "Login Page Settings"
+msgstr "Настройки страницы входа"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:228
+msgid "Logo image"
+msgstr "Изображение логотипа"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:236
+#| msgid "Logo Width"
+msgid "Logo width"
+msgstr "Ширина логотипа"
+
+#: includes/class-sma-menubar-array.php:1419
+#: includes/class-sma-menubar-array.php:1422
+msgid "Logs"
+msgstr "Журналы"
+
+#: includes/class-sma-admin.php:1201
+msgid "Menu"
+msgstr "Меню"
+
+#: includes/class-sma-menubar-array.php:1451
+#: includes/class-sma-menubar-array.php:1454
+msgid "Opt-ins"
+msgstr "подписки"
+
+#: includes/class-sma-menubar-array.php:1112
+#: includes/class-sma-menubar-array.php:1115
+msgid "Pages"
+msgstr "Страницы"
+
+#. %s: search for a tag
+#: woo-shop-manager-admin.php:76
+#, php-format
+msgid ""
+"Please install and activate %1$sWooCommerce%2$s for Shop Manager Admin for "
+"WooCommerce!"
+msgstr ""
+"Пожалуйста, установите и активируйте% 1 $ sWooCommerce% 2 $ s для "
+"администратора магазина для WooCommerce!"
+
+#: includes/class-sma-menubar-array.php:1518
+#: includes/class-sma-menubar-array.php:1521
+msgid "Pricing & Discounts"
+msgstr "Цены и скидки"
+
+#: includes/class-sma-menubar-array.php:1427
+#: includes/class-sma-menubar-array.php:1430
+msgid "Queue"
+msgstr "Очередь"
+
+#: includes/class-sma-admin.php:369
+msgid "Quick Draft"
+msgstr "Быстрый черновик"
+
+#: includes/class-sma-menubar-array.php:1666
+msgid "Recent Users"
+msgstr "Недавние пользователи"
+
+#: includes/class-sma-menubar-array.php:1606
+#: includes/class-sma-menubar-array.php:1609
+msgid "Refund for WooCommerce"
+msgstr "Возврат за WooCommerce"
+
+#: includes/class-sma-admin.php:304
+msgid "Remove WordPress logo from admin menu & admin bar"
+msgstr ""
+"Удалить логотип WordPress из меню администратора и панели администратора"
+
+#: includes/class-sma-menubar-array.php:1459
+#: includes/class-sma-menubar-array.php:1462
+msgid "Reports"
+msgstr "отчеты"
+
+#: includes/class-sma-menubar-array.php:1573
+#: includes/class-sma-menubar-array.php:1576
+msgid "Sales Report Country"
+msgstr "Страна отчета о продажах"
+
+#: includes/class-sma-menubar-array.php:1562
+#: includes/class-sma-menubar-array.php:1565
+msgid "Sales Report Email"
+msgstr "Электронная почта отчета о продажах"
+
+#: includes/class-sma-admin.php:1196
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#. Description of the plugin
+msgid ""
+"Save time managing your WooCommerce shop! Shop Manager Admin adds a "
+"customizable WooCommerce quick-links menu to the WordPress admin bar "
+"(frontend & backend)."
+msgstr ""
+"Сэкономьте время, управляя своим магазином WooCommerce! Администратор Shop "
+"Manager добавляет настраиваемое меню быстрых ссылок WooCommerce в панель "
+"администратора WordPress (интерфейс и бэкэнд)."
+
+#: includes/class-sma-admin.php:152 includes/class-sma-menubar-array.php:451
+#: includes/class-sma-menubar-array.php:454
+#: includes/class-sma-menubar-array.php:1475
+#: includes/class-sma-menubar-array.php:1478
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/class-sma-menubar-array.php:1508
+#: includes/class-sma-menubar-array.php:1511
+msgid "Shipment Tracking"
+msgstr "отслеживание посылки"
+
+#: includes/class-sma-menubar-array.php:443
+#: includes/class-sma-menubar-array.php:446
+msgid "Shipments"
+msgstr "Отгрузки"
+
+#: includes/class-sma-admin.php:1203
+msgid "Shop Manager"
+msgstr "Менеджер магазина"
+
+#: includes/class-sma-menubar-array.php:1627
+#: includes/class-sma-menubar-array.php:1630
+msgid "Shop Manager Admin"
+msgstr "Администратор магазина"
+
+#: includes/class-sma-admin.php:1199
+msgid "Shop Manager Admin by zorem"
+msgstr "Менеджер магазина Admin от zorem"
+
+#. Name of the plugin
+msgid "Shop Manager Admin for WooCommerce"
+msgstr "Администратор магазина-менеджера для WooCommerce"
+
+#: includes/class-sma-admin.php:222
+msgid "Show customer name"
+msgstr "Показать имя клиента"
+
+#: includes/class-sma-admin.php:236
+msgid "Show customer role"
+msgstr "Показать роль клиента"
+
+#: includes/class-sma-admin.php:229
+msgid "Show username"
+msgstr "Показать имя пользователя"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:298
+msgid "Simple"
+msgstr "Простой"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:68
+msgid "SMA Customizer"
+msgstr "Настройщик SMA"
+
+#: includes/class-sma-menubar-array.php:1584
+#: includes/class-sma-menubar-array.php:1587
+msgid "SMS for WooCommerce"
+msgstr "SMS для WooCommerce"
+
+#: includes/class-sma-menubar-array.php:1008
+#: includes/class-sma-menubar-array.php:1011
+msgid "Social Login Subscriptions Affiliate"
+msgstr "Партнерские подписки на вход в социальные сети"
+
+#: includes/class-sma-menubar-array.php:849
+#: includes/class-sma-menubar-array.php:852
+msgid "Subscription Emails"
+msgstr "Письма о подписке"
+
+#: includes/class-sma-menubar-array.php:1467
+#: includes/class-sma-menubar-array.php:1470
+msgid "Tools"
+msgstr "Инструменты"
+
+#: includes/class-sma-menubar-array.php:426
+#: includes/class-sma-menubar-array.php:429
+#: includes/class-sma-menubar-array.php:1595
+#: includes/class-sma-menubar-array.php:1598
+msgid "TrackShip"
+msgstr "TrackShip"
+
+#: includes/class-sma-menubar-array.php:40
+msgctxt "Translators: Main item"
+msgid "Shop Manager"
+msgstr "Менеджер магазина"
+
+#: includes/class-sma-menubar-array.php:46
+msgctxt "Translators: Main item - for the tooltip"
+msgid "Current Orders - WooCommerce Shop"
+msgstr "Текущие заказы - Магазин WooCommerce"
+
+#: includes/class-sma-menubar-array.php:1171
+#: includes/class-sma-menubar-array.php:1174
+msgid "Users"
+msgstr "Пользователи"
+
+#: includes/class-sma-menubar-array.php:1263
+#: includes/class-sma-menubar-array.php:1266
+msgid "weDocs"
+msgstr "weDocs"
+
+#: includes/class-sma-admin.php:1200
+msgid "Widget"
+msgstr "Виджет"
+
+#: includes/class-sma-menubar-array.php:1617
+#: includes/class-sma-menubar-array.php:1620
+#| msgid "WooCommerce Options"
+msgid "WooCommerce Bookings"
+msgstr "Бронирование WooCommerce"
+
+#: includes/class-sma-admin.php:399
+msgid "WooCommerce recent reviews"
+msgstr "WooCommerce недавние обзоры"
+
+#: includes/class-sma-admin.php:407
+msgid "Wordfence activity in the past week"
+msgstr "Активность Wordfence за последнюю неделю"
+
+#: includes/class-sma-admin.php:1194
+msgid "WordPress Dashboard Widgets"
+msgstr "Виджеты панели управления WordPress"
+
+#: includes/class-sma-admin.php:365
+msgid "WordPress Events and News"
+msgstr "События и новости WordPress"
+
+#: includes/class-sma-admin.php:361
+msgid "WordPress Welcome"
+msgstr "WordPress Добро пожаловать"
+
+#: includes/class-sma-menubar-array.php:1411
+#: includes/class-sma-menubar-array.php:1414
+msgid "Workflows"
+msgstr "Рабочие процессы"
+
+#. Author of the plugin
+msgid "zorem"
+msgstr "Zorem"

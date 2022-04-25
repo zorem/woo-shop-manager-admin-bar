@@ -1,0 +1,7 @@
+<wpml-config>
+	<admin-texts>		
+		<key name="sma_general_settings_option">
+			<key name="login_header_text" />
+		</key>
+	</admin-texts>		
+</wpml-config>

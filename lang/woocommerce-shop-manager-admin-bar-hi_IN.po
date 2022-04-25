@@ -1,0 +1,509 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Shop Manager Admin Bar\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-01 06:33+0000\n"
+"PO-Revision-Date: 2022-01-19 05:05+0000\n"
+"Last-Translator: \n"
+"Language-Team: Hindi\n"
+"Language: hi_IN\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.7; wp-5.8.3"
+
+#: includes/class-sma-admin.php:377
+msgid "Activity"
+msgstr "गतिविधि"
+
+#: includes/class-sma-admin.php:1193
+msgid "Admin Bar Menu"
+msgstr "व्यवस्थापक बार मेनू"
+
+#: includes/class-sma-admin.php:1198
+msgid "Admin Footer Text"
+msgstr "व्यवस्थापक पाद लेख पाठ"
+
+#: includes/class-sma-admin.php:1202
+msgid "Administrator"
+msgstr "प्रशासक"
+
+#: includes/class-sma-menubar-array.php:104
+msgid "All Orders"
+msgstr "सभी आदेश"
+
+#: includes/class-sma-admin.php:243
+msgid "Allow Switch to Customer for Shop Manager role"
+msgstr "शॉप मैनेजर की भूमिका के लिए ग्राहक को स्विच करने की अनुमति दें"
+
+#: includes/class-sma-admin.php:373
+msgid "At a Glance"
+msgstr "एक नजर में"
+
+#: includes/class-sma-menubar-array.php:666
+#: includes/class-sma-menubar-array.php:1394
+msgid "AutomateWoo"
+msgstr "स्वचालितवू"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:247
+#: includes/customizer/wc-sma-login-page-customizer.php:303
+#| msgid "Background Color"
+msgid "Background color"
+msgstr "पीछे का रंग"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:322
+msgid "Border color"
+msgstr "किनारे का रंग"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:332
+msgid "Border radius"
+msgstr "सीमा त्रिज्या"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:299
+msgid "Boxed"
+msgstr "बॉक्स्ड"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:345
+#| msgid "Button Color"
+msgid "Button color"
+msgstr "बटन का रंग"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:354
+msgid "Button font color"
+msgstr "बटन फ़ॉन्ट रंग"
+
+#: includes/class-sma-menubar-array.php:1435
+#: includes/class-sma-menubar-array.php:1438
+msgid "Carts"
+msgstr "गाड़ियां"
+
+#: includes/class-sma-menubar-array.php:1101
+#: includes/class-sma-menubar-array.php:1104
+msgid "Contact Forms 7"
+msgstr "संपर्क प्रपत्र 7"
+
+#: includes/class-sma-menubar-array.php:1078
+#: includes/class-sma-menubar-array.php:1081
+msgid "Custom Order Numbers"
+msgstr "कस्टम ऑर्डर नंबर"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:274
+msgid "Custom text after header:"
+msgstr "हेडर के बाद कस्टम टेक्स्ट:"
+
+#: includes/class-sma-menubar-array.php:1551
+#: includes/class-sma-menubar-array.php:1554
+msgid "Customer Verification"
+msgstr "ग्राहक सत्यापन"
+
+#: includes/class-sma-admin.php:154
+msgid "Customize"
+msgstr "अनुकूलित करें"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:109
+msgid "Customizing > WordPress login"
+msgstr "कस्टमाइज़ करना > वर्डप्रेस लॉगिन"
+
+#: includes/class-sma-menubar-array.php:435
+#: includes/class-sma-menubar-array.php:438
+#: includes/class-sma-menubar-array.php:1403
+#: includes/class-sma-menubar-array.php:1406
+msgid "Dashboard"
+msgstr "डैशबोर्ड"
+
+#: includes/class-sma-admin.php:389
+msgid "Display on-hold"
+msgstr "ऑन-होल्ड प्रदर्शित करें"
+
+#: includes/class-sma-admin.php:290
+msgid "Display order count column in user Admin"
+msgstr "प्रयोक्ता व्यवस्थापन में आदेश संख्या स्तंभ प्रदर्शित करें"
+
+#: includes/class-sma-admin.php:385
+msgid "Display processing"
+msgstr "प्रदर्शन प्रसंस्करण"
+
+#: includes/class-sma-admin.php:283
+msgid "Display signup date column in user Admin"
+msgstr "उपयोगकर्ता व्यवस्थापक में साइनअप दिनांक कॉलम प्रदर्शित करें"
+
+#: includes/class-sma-admin.php:393
+msgid "Display Stock info"
+msgstr "स्टॉक जानकारी प्रदर्शित करें"
+
+#: includes/class-sma-admin.php:278
+msgid "Display total spend column in user Admin"
+msgstr "उपयोगकर्ता व्यवस्थापक में कुल व्यय कॉलम प्रदर्शित करें"
+
+#: includes/class-sma-menubar-array.php:1052
+#: includes/class-sma-menubar-array.php:1055
+msgid "Drag and Drop Email Builder"
+msgstr "ईमेल बिल्डर को खींचें और छोड़ें"
+
+#: includes/class-sma-menubar-array.php:1276
+#: includes/class-sma-menubar-array.php:1279
+msgid "Elementor"
+msgstr "एलिमेंटर"
+
+#: includes/class-sma-menubar-array.php:1041
+#: includes/class-sma-menubar-array.php:1044
+#: includes/class-sma-menubar-array.php:1063
+#: includes/class-sma-menubar-array.php:1070
+msgid "Email Customizer"
+msgstr "ईमेल अनुकूलक"
+
+#: includes/class-sma-admin.php:297
+msgid "Enable horizontal scroll in WooCommerce Orders admin"
+msgstr "WooCommerce ऑर्डर व्यवस्थापक में क्षैतिज स्क्रॉल सक्षम करें"
+
+#: includes/class-sma-admin.php:217
+msgid "Enable Switch to Customer option in admin Bar"
+msgstr "व्यवस्थापक बार में ग्राहक पर स्विच करें विकल्प सक्षम करें"
+
+#: includes/class-sma-admin.php:301
+msgid "Enable this option to add a Horizontal scroll in orders admin."
+msgstr ""
+"आदेश व्यवस्थापक में क्षैतिज स्क्रॉल जोड़ने के लिए इस विकल्प को सक्षम करें।"
+
+#: includes/class-sma-admin.php:247
+msgid "Enable this option To Allow Switch to Customer for Shop Manager role."
+msgstr ""
+"शॉप मैनेजर की भूमिका के लिए ग्राहक को स्विच करने की अनुमति देने के लिए इस "
+"विकल्प को सक्षम करें।"
+
+#: includes/class-sma-admin.php:294
+msgid "Enable this option to display order count in users ."
+msgstr ""
+"उपयोगकर्ताओं में ऑर्डर की संख्या प्रदर्शित करने के लिए इस विकल्प को सक्षम "
+"करें।"
+
+#: includes/class-sma-admin.php:287
+msgid "Enable this option to display singup date column in users ."
+msgstr ""
+"उपयोगकर्ताओं में सिंगअप दिनांक कॉलम प्रदर्शित करने के लिए इस विकल्प को सक्षम "
+"करें।"
+
+#: includes/class-sma-admin.php:219
+msgid "Enable this option to display Switch User."
+msgstr "उपयोगकर्ता स्विच करें प्रदर्शित करने के लिए इस विकल्प को सक्षम करें।"
+
+#: includes/class-sma-admin.php:280
+#| msgid ""
+#| "Enable this option to add a \"Total Spend\" column in users admin.\n"
+msgid "Enable this option to display total spend column in user Admin ."
+msgstr ""
+"उपयोगकर्ता व्यवस्थापक में कुल व्यय कॉलम प्रदर्शित करने के लिए इस विकल्प को "
+"सक्षम करें।"
+
+#: includes/class-sma-admin.php:308
+msgid ""
+"Enable this option to remove WordPress logo from admin menu & admin bar."
+msgstr ""
+"वर्डप्रेस लोगो को एडमिन मेन्यू और एडमिन बार से हटाने के लिए इस विकल्प को "
+"इनेबल करें।"
+
+#: includes/class-sma-admin.php:226
+msgid "Enable this option To Show customer name."
+msgstr "ग्राहक का नाम दिखाने के लिए इस विकल्प को सक्षम करें।"
+
+#: includes/class-sma-admin.php:240
+msgid "Enable this option To Show customer role."
+msgstr "ग्राहक भूमिका दिखाने के लिए इस विकल्प को सक्षम करें।"
+
+#: includes/class-sma-admin.php:233
+msgid "Enable this option To Show username."
+msgstr "उपयोगकर्ता नाम दिखाने के लिए इस विकल्प को सक्षम करें।"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:363
+msgid "Expand button "
+msgstr "विस्तृत करें बटन"
+
+#: includes/class-sma-admin.php:1195
+msgid "Fast Customer Switching"
+msgstr "फास्ट ग्राहक स्विचिंग"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:256
+#: includes/customizer/wc-sma-login-page-customizer.php:313
+#| msgid "Text Color"
+msgid "Font color"
+msgstr "लिखावट का रंग"
+
+#: includes/class-sma-menubar-array.php:330
+#: includes/class-sma-menubar-array.php:333
+msgid "Fulfillment"
+msgstr "पूर्ति"
+
+#: includes/class-sma-admin.php:1192
+msgid "General Settings"
+msgstr "सामान्य सेटिंग्स"
+
+#: includes/class-sma-admin.php:159 includes/class-sma-admin.php:162
+#: includes/class-sma-admin.php:1197
+msgid "Go Pro"
+msgstr "पेशेवर बनो"
+
+#: includes/class-sma-menubar-array.php:1443
+#: includes/class-sma-menubar-array.php:1446
+msgid "Guests"
+msgstr "मेहमानों"
+
+#. Author URI of the plugin
+msgid "http://www.zorem.com/"
+msgstr "http://www.zorem.com/"
+
+#. URI of the plugin
+msgid "https://www.zorem.com/shop"
+msgstr "https://www.zorem.com/shop"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:265
+#| msgid "Link Color"
+msgid "Links color"
+msgstr "लिंक रंग"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:284
+msgid "Login box"
+msgstr "लॉग इन बॉक्स"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:291
+msgid "Login box type"
+msgstr "लॉगिन बॉक्स प्रकार"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:220
+msgid "Login Page Settings"
+msgstr "लॉगिन पेज सेटिंग्स"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:228
+msgid "Logo image"
+msgstr "लोगो छवि"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:236
+#| msgid "Logo Width"
+msgid "Logo width"
+msgstr "लोगो की चौड़ाई"
+
+#: includes/class-sma-menubar-array.php:1419
+#: includes/class-sma-menubar-array.php:1422
+msgid "Logs"
+msgstr "लॉग्स"
+
+#: includes/class-sma-admin.php:1201
+msgid "Menu"
+msgstr "मेन्यू"
+
+#: includes/class-sma-menubar-array.php:1451
+#: includes/class-sma-menubar-array.php:1454
+msgid "Opt-ins"
+msgstr "ऑप्ट-इन"
+
+#: includes/class-sma-menubar-array.php:1112
+#: includes/class-sma-menubar-array.php:1115
+msgid "Pages"
+msgstr "पृष्ठों"
+
+#. %s: search for a tag
+#: woo-shop-manager-admin.php:76
+#, php-format
+msgid ""
+"Please install and activate %1$sWooCommerce%2$s for Shop Manager Admin for "
+"WooCommerce!"
+msgstr ""
+"कृपया WooCommerce के लिए शॉप मैनेजर एडमिन के लिए %1$sWooCommerce%2$s इंस्टॉल "
+"और सक्रिय करें!"
+
+#: includes/class-sma-menubar-array.php:1518
+#: includes/class-sma-menubar-array.php:1521
+msgid "Pricing & Discounts"
+msgstr "मूल्य निर्धारण और छूट"
+
+#: includes/class-sma-menubar-array.php:1427
+#: includes/class-sma-menubar-array.php:1430
+msgid "Queue"
+msgstr "कतार"
+
+#: includes/class-sma-admin.php:369
+msgid "Quick Draft"
+msgstr "त्वरित मसौदा"
+
+#: includes/class-sma-menubar-array.php:1666
+msgid "Recent Users"
+msgstr "हाल के उपयोगकर्ता"
+
+#: includes/class-sma-menubar-array.php:1606
+#: includes/class-sma-menubar-array.php:1609
+msgid "Refund for WooCommerce"
+msgstr "WooCommerce के लिए धनवापसी"
+
+#: includes/class-sma-admin.php:304
+msgid "Remove WordPress logo from admin menu & admin bar"
+msgstr "व्यवस्थापक मेनू और व्यवस्थापक बार से WordPress लोगो निकालें"
+
+#: includes/class-sma-menubar-array.php:1459
+#: includes/class-sma-menubar-array.php:1462
+msgid "Reports"
+msgstr "रिपोर्टों"
+
+#: includes/class-sma-menubar-array.php:1573
+#: includes/class-sma-menubar-array.php:1576
+msgid "Sales Report Country"
+msgstr "बिक्री रिपोर्ट देश"
+
+#: includes/class-sma-menubar-array.php:1562
+#: includes/class-sma-menubar-array.php:1565
+msgid "Sales Report Email"
+msgstr "बिक्री रिपोर्ट ईमेल"
+
+#: includes/class-sma-admin.php:1196
+msgid "Save Changes"
+msgstr "परिवर्तनों को सुरक्षित करें"
+
+#. Description of the plugin
+msgid ""
+"Save time managing your WooCommerce shop! Shop Manager Admin adds a "
+"customizable WooCommerce quick-links menu to the WordPress admin bar "
+"(frontend & backend)."
+msgstr ""
+"अपनी WooCommerce दुकान को प्रबंधित करने में समय बचाएं! शॉप मैनेजर एडमिन "
+"वर्डप्रेस एडमिन बार (फ्रंटएंड और बैकएंड) में एक अनुकूलन योग्य WooCommerce "
+"क्विक-लिंक्स मेनू जोड़ता है।"
+
+#: includes/class-sma-admin.php:152 includes/class-sma-menubar-array.php:451
+#: includes/class-sma-menubar-array.php:454
+#: includes/class-sma-menubar-array.php:1475
+#: includes/class-sma-menubar-array.php:1478
+msgid "Settings"
+msgstr "समायोजन"
+
+#: includes/class-sma-menubar-array.php:1508
+#: includes/class-sma-menubar-array.php:1511
+msgid "Shipment Tracking"
+msgstr "शिपमेंट ट्रैकिंग"
+
+#: includes/class-sma-menubar-array.php:443
+#: includes/class-sma-menubar-array.php:446
+msgid "Shipments"
+msgstr "लदान"
+
+#: includes/class-sma-admin.php:1203
+msgid "Shop Manager"
+msgstr "दुकान प्रबंधक"
+
+#: includes/class-sma-menubar-array.php:1627
+#: includes/class-sma-menubar-array.php:1630
+msgid "Shop Manager Admin"
+msgstr "दुकान प्रबंधक व्यवस्थापक"
+
+#: includes/class-sma-admin.php:1199
+msgid "Shop Manager Admin by zorem"
+msgstr "दुकान प्रबंधक व्यवस्थापक zorem . द्वारा"
+
+#. Name of the plugin
+msgid "Shop Manager Admin for WooCommerce"
+msgstr "WooCommerce के लिए शॉप मैनेजर एडमिन"
+
+#: includes/class-sma-admin.php:222
+msgid "Show customer name"
+msgstr "ग्राहक का नाम दिखाएं"
+
+#: includes/class-sma-admin.php:236
+msgid "Show customer role"
+msgstr "ग्राहक भूमिका दिखाएं"
+
+#: includes/class-sma-admin.php:229
+msgid "Show username"
+msgstr "उपयोगकर्ता नाम दिखाएं"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:298
+msgid "Simple"
+msgstr "सरल"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:68
+msgid "SMA Customizer"
+msgstr "एसएमए अनुकूलक"
+
+#: includes/class-sma-menubar-array.php:1584
+#: includes/class-sma-menubar-array.php:1587
+msgid "SMS for WooCommerce"
+msgstr "WooCommerce के लिए एसएमएस"
+
+#: includes/class-sma-menubar-array.php:1008
+#: includes/class-sma-menubar-array.php:1011
+msgid "Social Login Subscriptions Affiliate"
+msgstr "सामाजिक लॉगिन सदस्यता संबद्ध"
+
+#: includes/class-sma-menubar-array.php:849
+#: includes/class-sma-menubar-array.php:852
+msgid "Subscription Emails"
+msgstr "सदस्यता ईमेल"
+
+#: includes/class-sma-menubar-array.php:1467
+#: includes/class-sma-menubar-array.php:1470
+msgid "Tools"
+msgstr "उपकरण"
+
+#: includes/class-sma-menubar-array.php:426
+#: includes/class-sma-menubar-array.php:429
+#: includes/class-sma-menubar-array.php:1595
+#: includes/class-sma-menubar-array.php:1598
+msgid "TrackShip"
+msgstr "ट्रैकशिप"
+
+#: includes/class-sma-menubar-array.php:40
+msgctxt "Translators: Main item"
+msgid "Shop Manager"
+msgstr "दुकान प्रबंधक"
+
+#: includes/class-sma-menubar-array.php:46
+msgctxt "Translators: Main item - for the tooltip"
+msgid "Current Orders - WooCommerce Shop"
+msgstr "वर्तमान आदेश - WooCommerce Shop"
+
+#: includes/class-sma-menubar-array.php:1171
+#: includes/class-sma-menubar-array.php:1174
+msgid "Users"
+msgstr "उपयोगकर्ताओं"
+
+#: includes/class-sma-menubar-array.php:1263
+#: includes/class-sma-menubar-array.php:1266
+msgid "weDocs"
+msgstr "वी डॉक्स"
+
+#: includes/class-sma-admin.php:1200
+msgid "Widget"
+msgstr "विजेट"
+
+#: includes/class-sma-menubar-array.php:1617
+#: includes/class-sma-menubar-array.php:1620
+#| msgid "WooCommerce Options"
+msgid "WooCommerce Bookings"
+msgstr "WooCommerce बुकिंग"
+
+#: includes/class-sma-admin.php:399
+msgid "WooCommerce recent reviews"
+msgstr "WooCommerce हाल की समीक्षाएं"
+
+#: includes/class-sma-admin.php:407
+msgid "Wordfence activity in the past week"
+msgstr "पिछले सप्ताह में Wordfence गतिविधि"
+
+#: includes/class-sma-admin.php:1194
+msgid "WordPress Dashboard Widgets"
+msgstr "वर्डप्रेस डैशबोर्ड विजेट"
+
+#: includes/class-sma-admin.php:365
+msgid "WordPress Events and News"
+msgstr "वर्डप्रेस घटनाक्रम और समाचार"
+
+#: includes/class-sma-admin.php:361
+msgid "WordPress Welcome"
+msgstr "वर्डप्रेस स्वागत है"
+
+#: includes/class-sma-menubar-array.php:1411
+#: includes/class-sma-menubar-array.php:1414
+msgid "Workflows"
+msgstr "वर्कफ़्लो"
+
+#. Author of the plugin
+msgid "zorem"
+msgstr "ज़ोरेम"
