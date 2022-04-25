@@ -443,6 +443,14 @@ function sma_adminbar_array() {
 				'title'  => __( 'Shipments', 'woocommerce-shop-manager-admin-bar' )
 			)
 		);
+		$menu_items[ 'Logs_trackship' ] = array(
+			'parent' => $trackship_for_woocommerce,
+			'title'  => __( 'Logs', 'woocommerce-shop-manager-admin-bar' ),
+			'href'   => admin_url( 'admin.php?page=trackship-logs' ),
+			'meta'   => array(
+				'title'  => __( 'Logs', 'woocommerce-shop-manager-admin-bar' )
+			)
+		);	
 		$menu_items[ 'Settings' ] = array(
 			'parent' => $trackship_for_woocommerce,
 			'title'  => __( 'Settings', 'woocommerce-shop-manager-admin-bar' ),
@@ -450,7 +458,15 @@ function sma_adminbar_array() {
 			'meta'   => array(
 				'title'  => __( 'Settings', 'woocommerce-shop-manager-admin-bar' )
 			)
-		);				
+		);	
+		$menu_items[ 'Tools_trackship' ] = array(
+			'parent' => $trackship_for_woocommerce,
+			'title'  => __( 'Tools', 'woocommerce-shop-manager-admin-bar' ),
+			'href'   => admin_url( 'admin.php?page=trackship-tools' ),
+			'meta'   => array(
+				'title'  => __( 'Tools', 'woocommerce-shop-manager-admin-bar' )
+			)
+		);
 		/** Display "Products" section only for users with the capability 'edit_products' */
 		
 		
