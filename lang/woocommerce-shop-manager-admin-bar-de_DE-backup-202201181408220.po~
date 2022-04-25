@@ -1,0 +1,513 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Shop Manager Admin Bar\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-01 06:33+0000\n"
+"PO-Revision-Date: 2021-11-24 11:40+0000\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.5; wp-5.8.2"
+
+#: includes/class-sma-admin.php:358
+msgid "Activity"
+msgstr "Aktivität"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:362
+msgid "Add custom text to the footer of the login page."
+msgstr ""
+"Fügen Sie der Fußzeile der Anmeldeseite benutzerdefinierten Text hinzu."
+
+#: includes/customizer/wc-sma-login-page-customizer.php:380
+msgid "Add custom text to the header of the login page."
+msgstr ""
+"Fügen Sie der Kopfzeile der Anmeldeseite benutzerdefinierten Text hinzu."
+
+#: includes/class-sma-admin.php:1014
+msgid "Admin Bar Menu"
+msgstr "Menü der Admin-Leiste"
+
+#: includes/class-sma-admin.php:1019
+msgid "Admin Footer Text"
+msgstr "Admin-Fußzeilentext"
+
+#: includes/class-sma-admin.php:1023
+msgid "Administrator"
+msgstr "Administrator"
+
+#: includes/class-sma-menubar-array.php:102
+msgid "All Orders"
+msgstr "Alle Bestellungen"
+
+#: includes/class-sma-admin.php:230
+msgid "Allow Switch to Customer for Shop Manager role"
+msgstr "Wechsel zum Kunden für die Rolle des Shop-Managers zulassen"
+
+#: includes/class-sma-admin.php:354
+msgid "At a Glance"
+msgstr "Auf einen Blick"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:194
+#| msgid "Background color"
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:251
+msgid "Boxed"
+msgstr "Boxed"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:343
+msgid "Button Color"
+msgstr "Knopffarbe"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:269
+msgid "Change background color of login form in login page."
+msgstr ""
+"Ändern Sie die Hintergrundfarbe des Anmeldeformulars auf der Anmeldeseite."
+
+#: includes/customizer/wc-sma-login-page-customizer.php:195
+msgid "Change background color of login page."
+msgstr "Hintergrundfarbe der Anmeldeseite ändern."
+
+#: includes/customizer/wc-sma-login-page-customizer.php:288
+msgid "Change border color of login form in login page."
+msgstr "Ändern Sie die Rahmenfarbe des Anmeldeformulars auf der Anmeldeseite."
+
+#: includes/customizer/wc-sma-login-page-customizer.php:137
+msgid "change custom logo in admin login page."
+msgstr ""
+"Ändern Sie das benutzerdefinierte Logo auf der Administrator-Anmeldeseite."
+
+#: includes/customizer/wc-sma-login-page-customizer.php:213
+msgid "Change font color in login page."
+msgstr "Ändern Sie die Schriftfarbe auf der Anmeldeseite."
+
+#: includes/customizer/wc-sma-login-page-customizer.php:326
+msgid "Change label font color in login form in login page."
+msgstr ""
+"Ändern Sie die Schriftfarbe des Etiketts im Anmeldeformular auf der "
+"Anmeldeseite."
+
+#: includes/customizer/wc-sma-login-page-customizer.php:231
+msgid "Change link color in login page."
+msgstr "Linkfarbe auf der Anmeldeseite ändern."
+
+#: includes/customizer/wc-sma-login-page-customizer.php:344
+msgid "Change login buttom color in login form in login page."
+msgstr ""
+"Ändern Sie die Farbe des Anmeldebuttons im Anmeldeformular auf der "
+"Anmeldeseite."
+
+#: includes/class-sma-menubar-array.php:1083
+#: includes/class-sma-menubar-array.php:1086
+msgid "Contact Forms 7"
+msgstr "Kontaktformulare 7"
+
+#: includes/class-sma-menubar-array.php:1060
+#: includes/class-sma-menubar-array.php:1063
+msgid "Custom Order Numbers"
+msgstr "Benutzerdefinierte Bestellnummern"
+
+#: includes/class-sma-menubar-array.php:1324
+#: includes/class-sma-menubar-array.php:1327
+msgid "Customer Verification"
+msgstr "Kundenverifizierung"
+
+#: includes/class-sma-menubar-array.php:278
+#: includes/class-sma-menubar-array.php:281
+msgid "Dashboard"
+msgstr "Armaturenbrett"
+
+#: includes/class-sma-admin.php:370
+msgid "Display on-hold"
+msgstr "Anzeige in Wartestellung"
+
+#: includes/class-sma-admin.php:277
+msgid "Display order count column in user Admin"
+msgstr "Spalte \"Bestellanzahl\" im Benutzer-Admin anzeigen"
+
+#: includes/class-sma-admin.php:366
+msgid "Display processing"
+msgstr "Display-Verarbeitung"
+
+#: includes/class-sma-admin.php:270
+msgid "Display signup date column in user Admin"
+msgstr "Spalte für das Anmeldedatum im Benutzer-Admin anzeigen"
+
+#: includes/class-sma-admin.php:374
+msgid "Display Stock info"
+msgstr "Lagerinfo anzeigen"
+
+#: includes/class-sma-admin.php:265
+msgid "Display total spend column in user Admin"
+msgstr "Spalte \"Gesamtausgaben\" in der Benutzerverwaltung anzeigen"
+
+#: includes/class-sma-menubar-array.php:1034
+#: includes/class-sma-menubar-array.php:1037
+msgid "Drag and Drop Email Builder"
+msgstr "E-Mail-Builder per Drag & Drop"
+
+#: includes/class-sma-menubar-array.php:1023
+#: includes/class-sma-menubar-array.php:1026
+msgid "Email Customizer"
+msgstr "E-Mail-Anpasser"
+
+#: includes/class-sma-admin.php:284
+msgid "Enable horizontal scroll in WooCommerce Orders admin"
+msgstr "Aktivieren Sie das horizontale Scrollen im WooCommerce Orders-Admin"
+
+#: includes/class-sma-admin.php:204
+msgid "Enable Switch to Customer option in admin Bar"
+msgstr "Aktivieren Sie die Option „Zum Kunden wechseln“ in der Admin-Leiste"
+
+#: includes/class-sma-admin.php:288
+msgid "Enable this option to add a Horizontal scroll in orders admin."
+msgstr ""
+"Aktivieren Sie diese Option, um einen horizontalen Bildlauf im "
+"Auftragsadministrator hinzuzufügen."
+
+#: includes/class-sma-admin.php:234
+msgid "Enable this option To Allow Switch to Customer for Shop Manager role."
+msgstr ""
+"Aktivieren Sie diese Option, um den Wechsel zum Kunden für die Rolle des "
+"Shop-Managers zuzulassen."
+
+#: includes/class-sma-admin.php:281
+msgid "Enable this option to display order count in users ."
+msgstr ""
+"Aktivieren Sie diese Option, um die Anzahl der Bestellungen in Benutzern "
+"anzuzeigen."
+
+#: includes/class-sma-admin.php:274
+msgid "Enable this option to display singup date column in users ."
+msgstr ""
+"Aktivieren Sie diese Option, um die Spalte mit dem Singup-Datum in den "
+"Benutzern anzuzeigen."
+
+#: includes/class-sma-admin.php:206
+msgid "Enable this option to display Switch User."
+msgstr "Aktivieren Sie diese Option, um Benutzer wechseln anzuzeigen."
+
+#: includes/class-sma-admin.php:267
+#| msgid ""
+#| "Enable this option to add a \"Total Spend\" column in users admin.\n"
+msgid "Enable this option to display total spend column in user Admin ."
+msgstr ""
+"Aktivieren Sie diese Option, um die Spalte mit den Gesamtausgaben in der "
+"Benutzerverwaltung anzuzeigen."
+
+#: includes/class-sma-admin.php:295
+msgid ""
+"Enable this option to remove WordPress logo from admin menu & admin bar."
+msgstr ""
+"Aktivieren Sie diese Option, um das WordPress-Logo aus dem Admin-Menü und "
+"der Admin-Leiste zu entfernen."
+
+#: includes/class-sma-admin.php:213
+msgid "Enable this option To Show customer name."
+msgstr "Aktivieren Sie diese Option, um den Kundennamen anzuzeigen."
+
+#: includes/class-sma-admin.php:227
+msgid "Enable this option To Show customer role."
+msgstr "Aktivieren Sie diese Option, um die Kundenrolle anzuzeigen."
+
+#: includes/class-sma-admin.php:220
+msgid "Enable this option To Show username."
+msgstr "Aktivieren Sie diese Option, um den Benutzernamen anzuzeigen."
+
+#: includes/class-sma-admin.php:1016
+msgid "Fast Customer Switching"
+msgstr "Schneller Kundenwechsel"
+
+#: includes/class-sma-menubar-array.php:174
+#: includes/class-sma-menubar-array.php:177
+msgid "Fulfillment"
+msgstr "Erfüllung"
+
+#: includes/class-sma-admin.php:1013
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: includes/class-sma-admin.php:151 includes/class-sma-admin.php:1018
+msgid "Go Pro"
+msgstr "Go Pro"
+
+#. Author URI of the plugin
+msgid "http://www.zorem.com/"
+msgstr "http://www.zorem.com/"
+
+#. URI of the plugin
+msgid "https://www.zorem.com/shop"
+msgstr "https://www.zorem.com/shop"
+
+#: includes/class-sma-menubar-array.php:1045
+#: includes/class-sma-menubar-array.php:1052
+msgid "Kadence Email Customizer"
+msgstr "Kadence E-Mail-Anpasser"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:325
+msgid "Label Color"
+msgstr "Etikettenfarbe"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:230
+#| msgid "Font Color"
+msgid "Link Color"
+msgstr "Verknüpfungsfarbe"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:268
+msgid "Login Box Background Color"
+msgstr "Hintergrundfarbe des Anmeldefelds"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:287
+#| msgid "Login Box Label Color"
+msgid "Login Box Border Color"
+msgstr "Rahmenfarbe der Anmeldebox"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:305
+msgid "Login box radius"
+msgstr "Login-Box-Radius"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:248
+msgid "Login box type"
+msgstr "Login-Box-Typ"
+
+#: includes/customizer/sma-customizer.php:46
+msgid "Login Page Custmizer Settings"
+msgstr "Kundeneinstellungen für die Anmeldeseite"
+
+#: includes/customizer/sma-customizer.php:32
+#| msgid "Login Page Customize"
+msgid "Login Page Customizer"
+msgstr "Login-Seiten-Anpasser"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:361
+msgid "Login Page Footer Text"
+msgstr "Fußzeilentext der Anmeldeseite"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:379
+msgid "Login Page header Text"
+msgstr "Kopfzeilentext der Anmeldeseite"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:136
+msgid "Logo (upload)"
+msgstr "Logo (hochladen)"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:175
+msgid "Logo Bottom Margin"
+msgstr "Logo unterer Rand"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:153
+msgid "Logo Width"
+msgstr "Logobreite"
+
+#: includes/class-sma-admin.php:1022
+msgid "Menu"
+msgstr "Speisekarte"
+
+#: includes/class-sma-menubar-array.php:1095
+#: includes/class-sma-menubar-array.php:1098
+msgid "Pages"
+msgstr "Seiten"
+
+#. %s: search for a tag
+#: woo-shop-manager-admin.php:70
+#, php-format
+msgid ""
+"Please install and activate %1$sWooCommerce%2$s for Shop Manager Admin for "
+"WooCommerce!"
+msgstr ""
+"Bitte installieren und aktivieren Sie %1$sWooCommerce%2$s für Shop Manager "
+"Admin für WooCommerce!"
+
+#: includes/class-sma-menubar-array.php:1291
+#: includes/class-sma-menubar-array.php:1294
+msgid "Pricing & Discounts"
+msgstr "Preise & Rabatte"
+
+#: includes/class-sma-admin.php:350
+msgid "Quick Draft"
+msgstr "Schneller Entwurf"
+
+#: includes/class-sma-menubar-array.php:1449
+msgid "Recent Users"
+msgstr "Letzte Benutzer"
+
+#: includes/class-sma-menubar-array.php:1378
+#: includes/class-sma-menubar-array.php:1381
+msgid "Refund for WooCommerce"
+msgstr "Rückerstattung für WooCommerce"
+
+#: includes/class-sma-admin.php:291
+msgid "Remove WordPress logo from admin menu & admin bar"
+msgstr ""
+"Entfernen Sie das WordPress-Logo aus dem Admin-Menü und der Admin-Leiste"
+
+#: includes/class-sma-menubar-array.php:1346
+#: includes/class-sma-menubar-array.php:1349
+msgid "Sales Report Country"
+msgstr "Verkaufsbericht Land"
+
+#: includes/class-sma-menubar-array.php:1335
+#: includes/class-sma-menubar-array.php:1338
+msgid "Sales Report Email"
+msgstr "E-Mail-Verkaufsbericht"
+
+#: includes/class-sma-admin.php:1017
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#. Description of the plugin
+msgid ""
+"Save time managing your WooCommerce shop! Shop Manager Admin adds a "
+"customizable WooCommerce quick-links menu to the WordPress admin bar "
+"(frontend & backend)."
+msgstr ""
+"Sparen Sie Zeit bei der Verwaltung Ihres WooCommerce-Shops! Shop Manager "
+"Admin fügt der WordPress-Admin-Leiste (Frontend & Backend) ein anpassbares "
+"WooCommerce-Quick-Link-Menü hinzu."
+
+#: includes/customizer/wc-sma-login-page-customizer.php:154
+#: includes/customizer/wc-sma-login-page-customizer.php:176
+msgid "set custom logo width and maximum limit of width is 320px."
+msgstr ""
+"Legen Sie die benutzerdefinierte Logobreite fest und die maximale Breite "
+"beträgt 320px."
+
+#: includes/customizer/wc-sma-login-page-customizer.php:306
+msgid "set custom radius width and maximum limit of radius is 20px."
+msgstr ""
+"Legen Sie die benutzerdefinierte Radiusbreite fest und die maximale "
+"Radiusgrenze beträgt 20px."
+
+#: includes/class-sma-admin.php:146 includes/class-sma-menubar-array.php:294
+#: includes/class-sma-menubar-array.php:297
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: includes/class-sma-menubar-array.php:1280
+#: includes/class-sma-menubar-array.php:1283
+msgid "Shipment Tracking"
+msgstr "Sendungsverfolgung"
+
+#: includes/class-sma-menubar-array.php:286
+#: includes/class-sma-menubar-array.php:289
+msgid "Shipments"
+msgstr "Sendungen"
+
+#: includes/class-sma-admin.php:1024
+msgid "Shop Manager"
+msgstr "Ladenmanager"
+
+#: includes/class-sma-menubar-array.php:1399
+#: includes/class-sma-menubar-array.php:1402
+msgid "Shop Manager Admin"
+msgstr "Shop-Manager-Admin"
+
+#: includes/class-sma-admin.php:1020
+msgid "Shop Manager Admin by zorem"
+msgstr "Shop Manager Admin von zorem"
+
+#. Name of the plugin
+msgid "Shop Manager Admin for WooCommerce"
+msgstr "Shop-Manager-Admin für WooCommerce"
+
+#: includes/class-sma-admin.php:209
+msgid "Show customer name"
+msgstr "Kundennamen anzeigen"
+
+#: includes/class-sma-admin.php:223
+msgid "Show customer role"
+msgstr "Kundenrolle anzeigen"
+
+#: includes/class-sma-admin.php:216
+msgid "Show username"
+msgstr "Benutzername anzeigen"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:252
+msgid "Simple"
+msgstr "Einfach"
+
+#: includes/class-sma-menubar-array.php:1357
+#: includes/class-sma-menubar-array.php:1360
+msgid "SMS for WooCommerce"
+msgstr "SMS für WooCommerce"
+
+#: includes/class-sma-menubar-array.php:990
+#: includes/class-sma-menubar-array.php:993
+msgid "Social Login Subscriptions Affiliate"
+msgstr "Social Login-Abonnements Partner"
+
+#: includes/class-sma-menubar-array.php:831
+#: includes/class-sma-menubar-array.php:834
+msgid "Subscription Emails"
+msgstr "Abonnement-E-Mails"
+
+#: includes/customizer/wc-sma-login-page-customizer.php:212
+msgid "Text Color"
+msgstr "Textfarbe"
+
+#: includes/class-sma-menubar-array.php:269
+#: includes/class-sma-menubar-array.php:272
+#: includes/class-sma-menubar-array.php:1368
+#: includes/class-sma-menubar-array.php:1371
+msgid "TrackShip"
+msgstr "TrackSchiff"
+
+#: includes/class-sma-menubar-array.php:40
+msgctxt "Translators: Main item"
+msgid "Shop Manager"
+msgstr "Ladenmanager"
+
+#: includes/class-sma-menubar-array.php:46
+msgctxt "Translators: Main item - for the tooltip"
+msgid "Current Orders - WooCommerce Shop"
+msgstr "Aktuelle Bestellungen - WooCommerce Shop"
+
+#: includes/class-sma-menubar-array.php:1155
+#: includes/class-sma-menubar-array.php:1158
+msgid "Users"
+msgstr "Benutzer"
+
+#: includes/class-sma-menubar-array.php:1269
+#: includes/class-sma-menubar-array.php:1272
+msgid "weDocs"
+msgstr "weDocs"
+
+#: includes/class-sma-admin.php:1021
+msgid "Widget"
+msgstr "Widget"
+
+#: includes/class-sma-menubar-array.php:1389
+#: includes/class-sma-menubar-array.php:1392
+#| msgid "WooCommerce Options"
+msgid "WooCommerce Bookings"
+msgstr "WooCommerce-Buchungen"
+
+#: includes/class-sma-admin.php:380
+msgid "WooCommerce recent reviews"
+msgstr "WooCommerce aktuelle Bewertungen"
+
+#: includes/class-sma-admin.php:388
+msgid "Wordfence activity in the past week"
+msgstr "Wordfence-Aktivität in der letzten Woche"
+
+#: includes/class-sma-admin.php:1015
+msgid "WordPress Dashboard Widgets"
+msgstr "WordPress-Dashboard-Widgets"
+
+#: includes/class-sma-admin.php:346
+msgid "WordPress Events and News"
+msgstr "WordPress-Events und Neuigkeiten"
+
+#: includes/class-sma-admin.php:342
+msgid "WordPress Welcome"
+msgstr "WordPress-Willkommen"
+
+#. Author of the plugin
+msgid "zorem"
+msgstr "zorem"
