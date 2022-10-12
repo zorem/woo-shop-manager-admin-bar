@@ -4,24 +4,34 @@ Donate link:https://www.zorem.com
 Tags: WooCommerce
 Requires at least: 4.0
 Requires PHP: 7.0
-Tested up to: 5.9
-Stable tag: 3.6.4
+Tested up to: 6.0.1
+Stable tag: 3.6.5
 License: GPLv2 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The Shop Manager Admin plugin by [zorem](http://www.zorem.com/) provides a set of handy administration tools to empower your WooCommerce store admin and help you better manage your store, the plugin adds a WooCommerce quick access menu to the admin bar, lets you customize the WordPress admin and login page, add WooCommerce info columns to Users admin, Hide store totals from the Shop Manager role and more.. 
+The Shop Manager Extension provides a set of handy administration tools to empower your WooCommerce store and customize the display for Administrators and Shop manager roles, adds a quick access menu to the WordPress admin bar, switches to view customer accounts as a customer customer, customizes the WordPress admin login page and more.
 
 == Key Features: ==
 
-* Add a WooCommerce quick-links menu to the WordPress admin bar - easily access to your store’s orders, products, reports and more from the front-end and avoid the quick access to admin pages while browsing your store’s front-end. 
+* Quick access menu on admin bar – Quickly access to your store’s orders, products, reports and more from the WordPress admin bar while browsing your store’s front-end.
+View Customer Accounts as the Customer – Switch to any customer in your store to view their account
+* White Label the WordPress admin login page – use a customizer with a live preview to create a branded login page for your stores admin.
+* Hide WordPress Dashboard Widgets – Determine which dashboard widgets will display depending on the user role (Administrator/Shop Manager) and block access to the Display Options menu from Shop Manager Roles
+* Display WooCommerce info on the WordPress Users list – Add more WooCommerce info to the WordPress Users list columns (Total Spend, Order Count, Signup Date)
+* Restrict WooCommerce totals from the Shop Manager role – Hide menu items and restrict access to WooCommerce totals, Total Widget (Dashboard/WooCommerce home) and Analytics (Analytics & Reports)
+* Control the WooCommerce Menu Visibility – Create less distractions when other team members manage the store catalog and fulfill orders.
+* Switch Admin View to Shop Manager View – quickly switch the admin view to a clean interface (including totals)
+* Add horizontal scroll to WooCommerce Orders admin – this option adds a smooth horizontal scroll effect in the WooCommerce orders list.
+
+* Add a WooCommerce quick-links menu to the WordPress admin bar - easily access to your store’s orders, products, reports and more from the front-end and avoid quick access to admin pages while browsing your store’s front-end. 
 
 * Customize the Shop Manager admin bar menu - choose which menu item to show or hide by the user role (Administrator/Shop Manager)
 
-* Customize the WordPress Admin Login page - use a customizer with a live preview to create a branded login page to your stores admin.
+* Customize the WordPress Admin Login page - use a customizer with a live preview to create a branded login page for your stores admin.
 
-* Hide admin dashboard widgets - determine which dashboard widgets will display depending on the the user role (Administrator/Shop Manager)
+* Hide admin dashboard widgets - determine which dashboard widgets will display depending on the user role (Administrator/Shop Manager)
 
-* Add Custom columns to the WordPress users admin - you can display a Total Spend, Order Count and Signup Date Columns to WordPress users admin
+* Add Custom columns to the WordPress users admin - you can display a Total Spend, Order Count and Signup Date Column in the WordPress users admin
 
 * Add horizontal scroll to WooCommerce Orders admin – this option adds a smooth horizontal scroll effect in the WooCommerce orders list.
 
@@ -62,6 +72,15 @@ The Shop manager admin menu is compatible with many WooCommerce plugins, and wil
 3. Make sure you have set up "Woocommerce Shop Manager Admin Bar Option" in general settings.
 
 == Changelog ==
+
+= 3.6.5 =
+* Enhancement - Trackship Logs, Analytics, Tools, Compatibility Added
+* Enhancement - Customer Email Verification Compatibility Added
+* Enhancement - Woo Ajax Loginregister Compatibility Added
+* Enhancement - Advanced Local Pickup Pro Compatibility Added
+* Enhancement - Advanced Local Pickup For Woocommerce Compatibility Added
+* Dev - WooCommerce Tested Up To 6.7.0 
+* Dev - WordPress Tested Up To 6.0.1
 
 = 3.6.4 =
 * Enhancement - Improve Customizer Design For RTL And Responsive
