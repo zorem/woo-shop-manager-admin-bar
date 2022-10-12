@@ -3,13 +3,13 @@
  * Plugin Name: Shop Manager Admin for WooCommerce
  * Plugin URI:  https://www.zorem.com/shop
  * Description: Save time managing your WooCommerce shop! Shop Manager Admin adds a customizable WooCommerce quick-links menu to the WordPress admin bar (frontend & backend).
- * Version:     3.6.5
+ * Version:     3.6.6
  * Author:      zorem
  * Author URI:  http://www.zorem.com/
  * License:     GPL-2.0+
  * License URI: http://www.zorem.com/
  * Text Domain: woocommerce-shop-manager-admin-bar
- * WC tested up to: 6.7.0
+ * WC tested up to: 7.0.0
 */
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
@@ -20,7 +20,7 @@ class Woo_Shop_Manager_Admin {
 	/*
 	 * @var string
 	 */
-	public $version = '3.6.5';
+	public $version = '3.6.6';
 	
 	/**
 	 * Initialize the main plugin function
