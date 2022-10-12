@@ -435,6 +435,14 @@ function sma_adminbar_array() {
 				'title'  => __( 'Dashboard', 'woocommerce-shop-manager-admin-bar' )
 			)
 		);
+		$menu_items[ 'Analytics' ] = array(
+			'parent' => $trackship_for_woocommerce,
+			'title'  => __( 'Analytics', 'woocommerce-shop-manager-admin-bar' ),
+			'href'   => admin_url( 'admin.php?page=trackship-analytics' ),
+			'meta'   => array(
+				'title'  => __( 'Analytics', 'woocommerce-shop-manager-admin-bar' )
+			)
+		);
 		$menu_items[ 'Shipments' ] = array(
 			'parent' => $trackship_for_woocommerce,
 			'title'  => __( 'Shipments', 'woocommerce-shop-manager-admin-bar' ),
@@ -454,7 +462,7 @@ function sma_adminbar_array() {
 		$menu_items[ 'Settings' ] = array(
 			'parent' => $trackship_for_woocommerce,
 			'title'  => __( 'Settings', 'woocommerce-shop-manager-admin-bar' ),
-			'href'   => admin_url( 'admin.php?page=trackship-for-woocommerce&tab=settingsz' ),
+			'href'   => admin_url( 'admin.php?page=trackship-for-woocommerce&tab=settings' ),
 			'meta'   => array(
 				'title'  => __( 'Settings', 'woocommerce-shop-manager-admin-bar' )
 			)
@@ -1629,6 +1637,14 @@ function sma_adminbar_array() {
 			'href'   => admin_url( 'admin.php?page=woocommerce_shop_manager_admin_option' ),
 			'meta'   => array(
 				'title'  => __( 'Shop Manager Admin', 'woocommerce-shop-manager-admin-bar' ),
+			)
+		);
+		$menu_items[ 'email-verification' ] = array(
+			'parent' => $woocommerce_main_menu,
+			'title'  => __( 'Email Verification', 'woocommerce-shop-manager-admin-bar' ),
+			'href'   => admin_url( 'admin.php?page=customer-email-verification-for-woocommerce' ),
+			'meta'   => array(
+				'title'  => __( 'Email Verification', 'woocommerce-shop-manager-admin-bar' ),
 			)
 		);
 		
