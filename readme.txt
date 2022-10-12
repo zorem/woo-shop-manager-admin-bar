@@ -2,10 +2,10 @@
 Contributors: Zorem
 Donate link:https://www.zorem.com 
 Tags: WooCommerce
-Requires at least: 4.0
-Requires PHP: 7.0
-Tested up to: 6.0.1
-Stable tag: 3.6.5
+Requires at least: 5.8
+Requires PHP: 7.2
+Tested up to: 6.0.2
+Stable tag: 3.6.6
 License: GPLv2 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -72,6 +72,14 @@ The Shop manager admin menu is compatible with many WooCommerce plugins, and wil
 3. Make sure you have set up "Woocommerce Shop Manager Admin Bar Option" in general settings.
 
 == Changelog ==
+
+= 3.6.6 =
+* Enhancement - Compatibility added Order Delivery Date for WooCommerce by Tyche Software
+* Enhancement - Compatibility added WooCommerce Abandoned Cart – Lite by Tyche Software
+* Enhancement - Compatibility added Product Delivery Date for WooCommerce by Tyche Software
+* Enhancement - Compatibility added Booking & Appointment Plugin for WooCommerce by Tyche Software
+* Dev - WooCommerce Tested Up To 7.0.0
+* Dev - WordPress Tested Up To 6.0.2
 
 = 3.6.5 =
 * Enhancement - Trackship Logs, Analytics, Tools, Compatibility Added

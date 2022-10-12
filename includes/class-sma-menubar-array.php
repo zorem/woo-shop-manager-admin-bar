@@ -63,6 +63,11 @@ function sma_adminbar_array() {
 		$plugin_setting = 'plugin-setting';
 		$shop_plugins = $prefix . 'shop-plugins';
 		$pages = $prefix . 'pages';
+		$tychesoftwares_order_delivery_date = $prefix . 'tychesoftwares_order_delivery_date';
+		$tychesoftwares_product_delivery_date = $prefix . 'tychesoftwares_product_delivery_date';
+		$tychesoftwares_woocommerce_booking = $prefix . 'tychesoftwares_woocommerce_booking';
+		$tychesoftwares_order_delivery_date_for_woocommerce = $prefix . 'tychesoftwares_order_delivery_date_for_woocommerce';
+		$tychesoftwares_product_delivery_date_for_woocommerce_lite = $prefix . 'tychesoftwares_product_delivery_date_for_woocommerce_lite';
 		$posts = $prefix . 'posts';
 		$users = $prefix . 'users';
 		$all_users = $prefix . 'all_users';
@@ -1126,6 +1131,199 @@ function sma_adminbar_array() {
 				)
 			);
 		}
+		// tychesoftwares plugin settings
+		if ( is_plugin_active( 'order-delivery-date/order_delivery_date.php' ) ) {
+			$menu_items[ 'tychesoftwares_order_delivery_date' ] = array(
+				'parent' => $wsmab_main,
+				'id'     => $woocommerce,
+				'title'  => __( 'Order Delivery Date', 'woocommerce-shop-manager-admin-bar' ),
+				'href'   => admin_url( 'admin.php?page=order_delivery_date&action=view-orders' ),
+				'meta'   => array(
+					'title'  => __( 'Order Delivery Date', 'woocommerce-shop-manager-admin-bar' ),
+				)
+			);
+			$menu_items[ 'tychesoftwares_delivery_calendar' ] = array(
+				'parent' => $tychesoftwares_order_delivery_date,
+				'title'  => __( 'Delivery Calendar' ),
+				'href'   => admin_url( 'admin.php?page=order_delivery_date&action=view-orders' ),
+				'meta'   => array(
+					'title'  => __( 'Delivery Calendar' )
+				)
+			);
+			$menu_items[ 'tychesoftwares_order_setting' ] = array(
+				'parent' => $tychesoftwares_order_delivery_date,
+				'title'  => __( 'Setting' ),
+				'href'   => admin_url( 'admin.php?page=order_delivery_date' ),
+				'meta'   => array(
+					'title'  => __( 'Setting' )
+				)
+			);
+		}
+		if ( is_plugin_active( 'order-delivery-date-for-woocommerce/order_delivery_date.php' ) ) {
+			$menu_items[ 'tychesoftwares_order_delivery_date_for_woocommerce' ] = array(
+				'parent' => $wsmab_main,
+				'id'     => $woocommerce,
+				'title'  => __( 'Order Delivery Date', 'woocommerce-shop-manager-admin-bar' ),
+				'href'   => admin_url( 'admin.php?page=order_delivery_date_lite' ),
+				'meta'   => array(
+					'title'  => __( 'Order Delivery Date', 'woocommerce-shop-manager-admin-bar' ),
+				)
+			);
+		}
+		if ( is_plugin_active( 'product-delivery-date/product-delivery-date.php' ) ) {
+			$menu_items[ 'tychesoftwares_product_delivery_date' ] = array(
+				'parent' => $wsmab_main,
+				'id'     => $woocommerce,
+				'title'  => __( 'Product Delivery Date', 'woocommerce-shop-manager-admin-bar' ),
+				'href'   => admin_url( 'admin.php?page=woocommerce_prdd_history_page' ),
+				'meta'   => array(
+					'title'  => __( 'Product Delivery Date', 'woocommerce-shop-manager-admin-bar' ),
+				)
+			);
+			$menu_items[ 'tychesoftwares_view_deliveries' ] = array(
+				'parent' => $tychesoftwares_product_delivery_date,
+				'title'  => __( 'View Deliveries' ),
+				'href'   => admin_url( 'admin.php?page=woocommerce_prdd_history_page' ),
+				'meta'   => array(
+					'title'  => __( 'View Deliveries' )
+				)
+			);
+			$menu_items[ 'tychesoftwares_product_delivery_date_setting' ] = array(
+				'parent' => $tychesoftwares_product_delivery_date,
+				'title'  => __( 'Setting' ),
+				'href'   => admin_url( 'admin.php?page=woocommerce_prdd_page' ),
+				'meta'   => array(
+					'title'  => __( 'Setting' )
+				)
+			);
+			$menu_items[ 'tychesoftwares_product_delivery_date_activate_license' ] = array(
+				'parent' => $tychesoftwares_product_delivery_date,
+				'title'  => __( 'Activate License' ),
+				'href'   => admin_url( 'admin.php?page=prdd_license_page' ),
+				'meta'   => array(
+					'title'  => __( 'Activate License' )
+				)
+			);
+			$menu_items[ 'tychesoftwares_product_delivery_date_faq_and_Support' ] = array(
+				'parent' => $tychesoftwares_product_delivery_date,
+				'title'  => __( 'FAQ & Support' ),
+				'href'   => admin_url( 'admin.php?page=prdd_settings&action=faq_support_page' ),
+				'meta'   => array(
+					'title'  => __( 'FAQ & Support' )
+				)
+			);
+		}
+		if ( is_plugin_active( 'product-delivery-date-for-woocommerce-lite/product-delivery-date-for-woocommerce-lite.php' ) ) {
+			$menu_items[ 'tychesoftwares_product_delivery_date_for_woocommerce_lite' ] = array(
+				'parent' => $wsmab_main,
+				'id'     => $woocommerce,
+				'title'  => __( 'Product Delivery Date', 'woocommerce-shop-manager-admin-bar' ),
+				'href'   => admin_url( 'admin.php?page=woocommerce_prdd_history_page' ),
+				'meta'   => array(
+					'title'  => __( 'Product Delivery Date', 'woocommerce-shop-manager-admin-bar' ),
+				)
+			);
+			$menu_items[ 'tychesoftwares_view_deliveries_for_woocommerce_lite' ] = array(
+				'parent' => $tychesoftwares_product_delivery_date_for_woocommerce_lite,
+				'title'  => __( 'View Deliveries' ),
+				'href'   => admin_url( 'admin.php?page=woocommerce_prdd_lite_history_page' ),
+				'meta'   => array(
+					'title'  => __( 'View Deliveries' )
+				)
+			);
+			$menu_items[ 'tychesoftwares_product_delivery_date_for_woocommerce_lite_setting' ] = array(
+				'parent' => $tychesoftwares_product_delivery_date_for_woocommerce_lite,
+				'title'  => __( 'Setting' ),
+				'href'   => admin_url( 'admin.php?page=woocommerce_prdd_lite_page' ),
+				'meta'   => array(
+					'title'  => __( 'Setting' )
+				)
+			);
+		}
+		if ( is_plugin_active( 'woocommerce-booking/woocommerce-booking.php' ) ) {
+			$menu_items[ 'tychesoftwares_woocommerce_booking' ] = array(
+				'parent' => $wsmab_main,
+				'id'     => $woocommerce,
+				'title'  => __( 'Booking', 'woocommerce-shop-manager-admin-bar' ),
+				'href'   => admin_url( 'edit.php?post_type=bkap_booking' ),
+				'meta'   => array(
+					'title'  => __( 'Booking', 'woocommerce-shop-manager-admin-bar' ),
+				)
+			);
+			$menu_items[ 'tychesoftwares_view_bookings' ] = array(
+				'parent' => $tychesoftwares_woocommerce_booking,
+				'title'  => __( 'View Bookings' ),
+				'href'   => admin_url( 'edit.php?post_type=bkap_booking' ),
+				'meta'   => array(
+					'title'  => __( 'View Bookings' )
+				)
+			);
+			$menu_items[ 'tychesoftwares_import_booking' ] = array(
+				'parent' => $tychesoftwares_woocommerce_booking,
+				'title'  => __( 'Import Booking' ),
+				'href'   => admin_url( 'edit.php?post_type=bkap_gcal_event' ),
+				'meta'   => array(
+					'title'  => __( 'Import Booking' )
+				)
+			);
+			$menu_items[ 'tychesoftwares_booking_Resources' ] = array(
+				'parent' => $tychesoftwares_woocommerce_booking,
+				'title'  => __( 'Resources' ),
+				'href'   => admin_url( 'edit.php?post_type=bkap_resource' ),
+				'meta'   => array(
+					'title'  => __( 'Resources' )
+				)
+			);
+			$menu_items[ 'tychesoftwares_booking_send_reminders' ] = array(
+				'parent' => $tychesoftwares_woocommerce_booking,
+				'title'  => __( 'Send Reminders' ),
+				'href'   => admin_url( 'edit.php?post_type=bkap_reminder' ),
+				'meta'   => array(
+					'title'  => __( 'Send Reminders' )
+				)
+			);
+			$menu_items[ 'tychesoftwares_create_booking' ] = array(
+				'parent' => $tychesoftwares_woocommerce_booking,
+				'title'  => __( 'Create Booking' ),
+				'href'   => admin_url( 'edit.php?post_type=bkap_booking&page=bkap_create_booking_page' ),
+				'meta'   => array(
+					'title'  => __( 'Create Booking' )
+				)
+			);
+			$menu_items[ 'tychesoftwares_booking_settings' ] = array(
+				'parent' => $tychesoftwares_woocommerce_booking,
+				'title'  => __( 'Settings' ),
+				'href'   => admin_url( 'edit.php?post_type=bkap_booking&page=woocommerce_booking_page' ),
+				'meta'   => array(
+					'title'  => __( 'Settings' )
+				)
+			);
+			$menu_items[ 'tychesoftwares_booking_status' ] = array(
+				'parent' => $tychesoftwares_woocommerce_booking,
+				'title'  => __( 'Status' ),
+				'href'   => admin_url( 'edit.php?post_type=bkap_booking&page=bkap_system_status' ),
+				'meta'   => array(
+					'title'  => __( 'Status' )
+				)
+			);
+			$menu_items[ 'tychesoftwares_booking_activate_license' ] = array(
+				'parent' => $tychesoftwares_woocommerce_booking,
+				'title'  => __( 'Activate License' ),
+				'href'   => admin_url( 'edit.php?post_type=bkap_booking&page=booking_license_page' ),
+				'meta'   => array(
+					'title'  => __( 'Activate License' )
+				)
+			);
+			$menu_items[ 'tychesoftwares_booking_faq_and_Support' ] = array(
+				'parent' => $tychesoftwares_woocommerce_booking,
+				'title'  => __( 'FAQ & Support' ),
+				'href'   => admin_url( 'edit.php?post_type=bkap_booking&page=edit.php?post_type=bkap_booking&page=woocommerce_booking_page&action=faq_support_page' ),
+				'meta'   => array(
+					'title'  => __( 'FAQ & Support' )
+				)
+			);
+		}
+		// tychesoftwares plugin settings end
 		if ( current_user_can( 'edit_pages' ) ) {
 			$menu_items[ 'pages' ] = array(
 				'parent' => $wsmab_main,
@@ -1647,7 +1845,16 @@ function sma_adminbar_array() {
 				'title'  => __( 'Email Verification', 'woocommerce-shop-manager-admin-bar' ),
 			)
 		);
-		
+		if ( is_plugin_active( 'woocommerce-abandoned-cart/woocommerce-ac.php' ) ) {
+			$menu_items[ 'tychesoftwares_abandoned_cart' ] = array(
+				'parent' => $woocommerce_main_menu,
+				'title'  => __( 'Abandoned Carts', 'woocommerce-shop-manager-admin-bar' ),
+				'href'   => admin_url( 'admin.php?page=woocommerce_ac_page' ),
+				'meta'   => array(
+					'title'  => __( 'Abandoned Carts', 'woocommerce-shop-manager-admin-bar' ),
+				)
+			);
+		}
 			if ( is_plugin_active( 'woocommerce-multilingual/wpml-woocommerce.php' ) ) {
 			$menu_items[ 'woocommerce-multilingual' ] = array(
 				'parent' => $woocommerce_main_menu,
